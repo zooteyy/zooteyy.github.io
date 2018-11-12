@@ -4,5 +4,14 @@
     <meta charset="utf-8" />
 </head>
 <body>
-    <p>Hallo</p>
+<p id="p1">Hallo</p>
+<button onclick="function1()">Button</button>
+
+<script>
+    function function1() {
+        p_1 = document.getElementById("p1");
+        p_1.style.color = "blue"
+        p_1.innerHTML = "Test"
+    }
+</script>
 </body>
